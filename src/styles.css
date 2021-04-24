@@ -1,0 +1,138 @@
+.App {
+  font-family: sans-serif;
+  /* background-color: rgb(233, 233, 233); */
+  /* text-align: center; */
+}
+
+.navigation {
+  /* margin-bottom: 20rem; */
+  padding: 1rem;
+  float: right;
+}
+
+.form-control {
+  width: 8rem;
+  margin: 0.2rem;
+  /* margin-right: -10%; */
+}
+
+.nav-form {
+  /* margin-left: 60%; */
+  margin: 0.5rem;
+}
+/* Navbar */
+
+/* Carousel */
+.size {
+  max-height: 70vh;
+  /* overflow: auto; */
+}
+
+.carousel {
+  margin-top: 10rem;
+  box-shadow: 0 6px 10px 0 rgba(5, 5, 5, 0.2);
+  border: 0.1rem solid rgb(228, 228, 228);
+}
+
+.carousel-name {
+  /* background-color: white; */
+  color: white;
+  background: rgba(8, 7, 7, 0.5);
+}
+
+/* Carousel */
+
+/* Recipe */
+.arrangements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.recipe-background {
+  /* filter: drop-shadow(15px 9px 4px #c9c9c9); */
+  background-color: white;
+  box-shadow: 0 6px 10px 0 rgba(5, 5, 5, 0.2);
+  transition: 0.3s;
+  padding-left: 0rem;
+  /* margin: 2rem; */
+  margin-top: 2rem;
+  border: 0.1rem solid rgb(228, 228, 228);
+}
+
+/* On mouse-over, add a deeper shadow */
+.recipe-background:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.recipe-details {
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+  /* display: inline-block; */
+  width: 16rem;
+  /* overflow: hidden; */
+  /* white-space: wrap; */
+  /* text-overflow: ellipsis; */
+}
+
+.recipes {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-name {
+  color: #343a40;
+}
+
+.link {
+  text-decoration: none;
+  border-radius: 0.25rem;
+  /* padding: 0.6rem 1rem; */
+  padding: 0.45rem 0.58rem;
+  margin: 0.7rem;
+  /* margin-bottom: 0.5rem; */
+  color: white;
+  background-color: #343a40;
+  border-color: #343a40;
+  border: 1px solid transparent;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+list-decoration {
+  list-style-type: none;
+}
+/* Recipe */
+
+/* Top Picks */
+.card {
+  margin: 1rem;
+}
+
+/* Top Picks */
+
+/* Footer */
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 50%;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: white;
+}
