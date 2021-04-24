@@ -5,5 +5,5 @@
 #### [view codesandbox](https://codesandbox.io/s/github/nicole-mathias/React_Recipe_App/tree/main/)
 
 <p>
-  This app was created using api : https://developer.edamam.com/
+  Data for this app was taken from an api : https://developer.edamam.com/
 </p>
